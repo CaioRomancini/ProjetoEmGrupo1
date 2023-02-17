@@ -1,0 +1,59 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    position: relative;
+    top: 70px;
+    left: 100px;
+    color: #FF4081;
+    ;
+}
+
+h6 {
+    position: relative;
+    top: 57px;
+    left: 109px;
+    color: #555555;
+    ;
+}
+
+table {
+    width: 100%;
+    margin-left: 20px;
+    border-spacing: 50px;
+}
+
+
+td {
+    text-align: center;
+}
+
+.cell {
+    Display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+   
+}
+
+.cell img {
+    max-width: 381px;
+    max-height: 300px;
+    height: auto;
+}
+
+.cell>div {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cell>div p,
+.cell>div h2 {
+    margin: 0;
+    padding: 10px;
+
+}
